@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Details from "./components/Details";
+import Footer from "./components/Footer";
 
 // Provider still left to install
 
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="*" element={<Home />} />
           <Route path="/details" element={<Details />} />
         </Routes>
+        <Footer />
       </section>
    
   );
