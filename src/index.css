@@ -11,6 +11,13 @@ code {
 @media screen and (min-width: 1024px) {
 
   .cards-container {
-      background-color: red;
+      margin: auto
   }
+
+
+  .card-container {
+    width: 40%;
+    margin: auto;
+  }
+  
 }
