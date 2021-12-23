@@ -39,7 +39,7 @@ const Leaderboard = () => {
         </p>
       </div>
       <table className="table">
-      <thead className="t-head">
+        <thead className="t-head">
         <tr className="tr">
           <th>team</th>
           <th>wins</th>
@@ -53,7 +53,7 @@ const Leaderboard = () => {
           <th>GD</th>
         </tr>
       </thead>
-    <tbody>
+        <tbody>
       {leagueStanding.map((item) => (
         <LeaderboardData
           key={item.id}
@@ -61,9 +61,9 @@ const Leaderboard = () => {
           teamStat={item.stats}
         />
       ))}
-    </tbody>
-  </table>
-  </div>
+        </tbody>
+      </table>
+    </div>
   );
 };
 
