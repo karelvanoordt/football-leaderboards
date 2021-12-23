@@ -11,11 +11,11 @@ const LeagueCard = ({ name, logo, id }) => {
   const loadStanding = (id) => dispatch(loadLeague(id));
 
   return (
-    <div className='card-container'>
-      <Link className='links' to={`/leaderboard/${name}`} onClick={() => loadStanding(id)}>
-        <div className='card-items'>
-          <img className='league-logo' src={logo} alt="league-logo" />
-          <h1 className='card-title'>{name}</h1>
+    <div className="card-container">
+      <Link className="links" to={`/leaderboard/${name}`} onClick={() => loadStanding(id)}>
+        <div className="card-items">
+          <img className="league-logo" src={logo} alt="league-logo" />
+          <h1 className="card-title">{name}</h1>
         </div>
       </Link>
     </div>

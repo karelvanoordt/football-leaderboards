@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import LeagueCard from './Card';
 import Header from './Header';
 import { getLeagues, searchLeagues } from '../redux/pages/homeReducer';
-import './home.css'
+import './home.css';
 
 const Home = () => {
   const allLeagues = useSelector((state) => state.home);
@@ -23,9 +23,9 @@ const Home = () => {
   return (
     <div className="main-container">
       <Header length={allLeagues.length} />
-      <div className='input-cont'>
+      <div className="input-cont">
         <input type="text" className="search" placeholder="search league" value={search} onInput={(e) => searchLeague(e.target.value)} />
-      </div>  
+      </div>
       <div className="cards-container">
         { allLeagues.map((league) => (
           <LeagueCard

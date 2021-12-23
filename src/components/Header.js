@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './header.css'
+import './header.css';
 
 const Header = ({ length }) => (
-  <div className='header-cont'>
-    <div className='title-cont'>
+  <div className="header-cont">
+    <div className="title-cont">
       <h1>Football360</h1>
     </div>
-    <div className='num-cont'>
+    <div className="num-cont">
       <p>
-        Total Leagues: 
+        Total Leagues:
         {' '}
         {(length)}
       </p>
