@@ -34,8 +34,8 @@ const Leaderboard = () => {
         <h2 className="lead-item-name">{leagueName}</h2>
         <img className="lead-item-img" src={leagueLogo} alt="logo" />
         <p>
-        Season:
-        {season}
+          Season:
+          {season}
         </p>
       </div>
       <table className="table">
@@ -66,5 +66,5 @@ const Leaderboard = () => {
   </div>
   );
 };
-  
+
 export default Leaderboard;
