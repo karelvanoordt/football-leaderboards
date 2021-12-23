@@ -9,8 +9,8 @@ const LeaderboardHeader = ({ id, year }) => {
       <div className='lead-title'>
         <h2>Football360</h2>
       </div>
-      <div>
-        <h3 className='lead-years'>Choose year: </h3>
+      <div className='year-cont'>
+        <h3 className='lead-years'>Choose year:{' '}</h3>
         <select onChange={(e) => year(id, e.target.value)}>
           {seasons.map((season) => (
             <option key={season} value={season}>

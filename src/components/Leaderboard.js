@@ -27,12 +27,12 @@ const Leaderboard = () => {
       dispatch(getStanding(id));
     }, []);
     return (
-      <div className="standing-page d-flex j-center a-center f-col">
+      <di className="laderboard-page">
         <LeaderboardHeader year={changeYear} id={id} />
-        <Link className="standing-link d-flex" to="/" onClick={loadLeague}><AiOutlineRollback /></Link>
-        <div>
-          <h2>{leagueName}</h2>
-          <img src={leagueLogo} alt="logo" />
+        <Link className='back-btn' to="/" onClick={loadLeague}><AiOutlineRollback /></Link>
+        <div className='lead-item-main'>
+          <h2 className='lead-item-name'>{leagueName}</h2>
+          <img className='lead-item-img' src={leagueLogo} alt="logo" />
           <p>
             Season: 
             {season}
@@ -63,7 +63,7 @@ const Leaderboard = () => {
             ))}
           </tbody>
         </table>
-      </div>
+      </di>
     );
 };
   
