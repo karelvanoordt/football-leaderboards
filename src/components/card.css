@@ -1,29 +1,30 @@
 .card-container {
-    border: 1px solid grey;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    background: rgb(251,63,240);
-    background: radial-gradient(circle, rgba(251,63,240,0.35898109243697474) 0%, rgba(252,70,107,0.3925945378151261) 68%);    font-family: Verdana;
-    border-radius: 35px 0 35px 0;
-    border-color: transparent
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background: rgb(251, 63, 240);
+  background: radial-gradient(circle, rgba(251, 63, 240, 0.35898109243697474) 0%, rgba(252, 70, 107, 0.3925945378151261) 68%);
+  font-family: Verdana, sans-serif;
+  border-radius: 35px 0 35px 0;
+  border-color: transparent;
 }
 
 .card-items {
-    margin: auto;
-    padding: 2rem;
+  margin: auto;
+  padding: 2rem;
 }
 
 .links {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .league-logo {
-    height: 7rem;
-    width: 7rem;
+  height: 7rem;
+  width: 7rem;
 }
 
 .card-title {
-    font-size: 1rem;
+  font-size: 1rem;
 }

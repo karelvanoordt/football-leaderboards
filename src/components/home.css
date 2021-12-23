@@ -1,28 +1,26 @@
 .main-container {
-    width: 100vw;
+  width: 100vw;
 }
 
 .input-cont {
-    display: flex;
-    margin: auto;
-    justify-content: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
 .search {
-    font-family: Verdana;
-    padding: .5rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    border-radius: 10px;
-    justify-self: center;
-    border-color: transparent;
+  font-family: Verdana, sans-serif;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  justify-self: center;
+  border-color: transparent;
 }
 
 .cards-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    row-gap: .5rem;
-    column-gap: .2rem    
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 0.5rem;
+  column-gap: 0.2rem;
 }
-
-
