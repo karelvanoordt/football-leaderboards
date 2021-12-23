@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.header-cont {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous';
+    color: white;
+}
+
+.title-cont {
+    margin: auto;
+}
+
+.num-cont {
+    margin: auto;
+}

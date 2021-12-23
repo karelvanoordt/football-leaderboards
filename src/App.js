@@ -1,26 +1,27 @@
-import React from "react";
-import { Route, Routes } from 'react-router-dom';
-// import { Provider } from 'react-redux';
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Details from "./components/Details";
-import Footer from "./components/Footer";
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { Routes, Route } from 'react-router-dom';
+import { getLeagues } from './redux/pages/homeReducer';
+import Home from './components/Home';
+import Footer from './components/Footer';
+import Leaderboard from './components/Leaderboard';
 
-// Provider still left to install
+const App = () => {
+  const dispatch = useDispatch();
 
-function App() {
+  useEffect(() => {
+    dispatch(getLeagues());
+  }, []);
+
   return (
-    
-      <section>
-        <Navbar />
-        <Routes>
-          <Route exact path="*" element={<Home />} />
-          <Route path="/details" element={<Details />} />
-        </Routes>
-        <Footer />
-      </section>
-   
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/leaderboard/:id" element={<Leaderboard />} />
+      </Routes>
+      <Footer />
+    </div>
   );
-}
+};
 
 export default App;

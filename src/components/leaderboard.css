@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.lead-head-cont {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.lead-title {
+    margin: auto;
+    font-family: 'Righteous';
+}
+
+.lead-years {
+    font-family: 'Righteous';
+}
+
+

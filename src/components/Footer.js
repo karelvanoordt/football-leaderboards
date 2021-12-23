@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <div>
-            <p>This is the Footer</p>
+            <p>Made by Karel van Oordt</p>
         </div>
     )
 };
