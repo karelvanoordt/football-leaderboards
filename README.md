@@ -19,6 +19,7 @@
 ## Live Demo
 
 [Live Demo Link](https://karelvanoordt-football360.herokuapp.com/)
+[Loom Video Explanation](https://www.loom.com/share/b5151a90027c4c5a89bc3da0fa3e448d)
 
 
 ## Getting Started
