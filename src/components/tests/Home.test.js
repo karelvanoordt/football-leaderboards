@@ -1,10 +1,10 @@
 import React from 'react';
 import Home from '../Home';
 
-const mission = (
+const home = (
   <Home />
 );
 
 it('renders correctly', () => {
-  expect(Home).toMatchSnapshot();
+  expect(home).toMatchSnapshot();
 });

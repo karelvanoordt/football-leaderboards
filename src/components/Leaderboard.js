@@ -41,26 +41,26 @@ const Leaderboard = () => {
       <table className="table">
         <thead className="t-head">
           <tr className="tr">
-          <th>team</th>
-          <th>wins</th>
-          <th>Loss</th>
-          <th>Draws</th>
-          <th>Games</th>
-          <th>GF</th>
-          <th>GA</th>
-          <th>points</th>
-          <th>rank</th>
-          <th>GD</th>
-        </tr>
+            <th>team</th>
+            <th>wins</th>
+            <th>Loss</th>
+            <th>Draws</th>
+            <th>Games</th>
+            <th>GF</th>
+            <th>GA</th>
+            <th>points</th>
+            <th>rank</th>
+            <th>GD</th>
+          </tr>
         </thead>
         <tbody>
           {leagueStanding.map((item) => (
-        <LeaderboardData
-          key={item.id}
-          teamName={item.clubName}
-          teamStat={item.stats}
-        />
-      ))}
+            <LeaderboardData
+              key={item.id}
+              teamName={item.clubName}
+              teamStat={item.stats}
+            />
+          ))}
         </tbody>
       </table>
     </div>
