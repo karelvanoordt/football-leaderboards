@@ -40,7 +40,7 @@ const Leaderboard = () => {
       </div>
       <table className="table">
         <thead className="t-head">
-        <tr className="tr">
+          <tr className="tr">
           <th>team</th>
           <th>wins</th>
           <th>Loss</th>
@@ -52,9 +52,9 @@ const Leaderboard = () => {
           <th>rank</th>
           <th>GD</th>
         </tr>
-      </thead>
+        </thead>
         <tbody>
-      {leagueStanding.map((item) => (
+          {leagueStanding.map((item) => (
         <LeaderboardData
           key={item.id}
           teamName={item.clubName}
