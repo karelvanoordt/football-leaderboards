@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.leaderboard-page {
+  width: 100vw;
+  margin: auto;
+  justify-content: center;
+  background-color: ivory;
+}
+
+.lead-head-cont {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+.lead-item-main {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead-title {
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.lead-years {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+}
+
+.year-cont {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  background-color: rgba(5, 5, 78, 0.442);
+}
+
+.lead-item-name {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.lead-item-img {
+  height: 8rem;
+  width: 8rem;
+}
+
+.table {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+  width: 100vw;
+  margin: auto;
+}
+
+.t-head {
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #abc6f6;
+  color: #fff;
+}
+
+.back-btn {
+  padding: 2rem;
+  align-self: center;
+}

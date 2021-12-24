@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the app testing HomePage UI 1`] = `
+"<div class=\\"App\\">
+  <div class=\\"main-container\\">
+    <div class=\\"header-cont\\">
+      <div class=\\"title-cont\\">
+        <h1>Football360</h1>
+      </div>
+      <div class=\\"num-cont\\">
+        <p>Total Leagues: 0</p>
+      </div>
+    </div>
+    <div class=\\"input-cont\\"><input type=\\"text\\" class=\\"search\\" placeholder=\\"search league\\" value=\\"\\"></div>
+    <div class=\\"cards-container\\"></div>
+  </div>
+  <div>
+    <p>Made by Karel van Oordt</p>
+  </div>
+</div>"
+`;
