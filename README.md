@@ -67,6 +67,10 @@ Feel free to check the [issues page](https://github.com/karelvanoordt/football-l
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Thanks to [Azhari Muhammad Marzan](https://github.com/azharimm) for his API "Football Standings". You can check it out [here](https://github.com/azharimm/football-standings-api)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
